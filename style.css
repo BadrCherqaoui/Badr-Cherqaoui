@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
+
+/* ======================================== Initialisation ======================================== */
+
 *{
     padding: 0; 
     margin: 0; 
@@ -43,6 +46,7 @@ li{
     margin : 5px 15px; 
 }
 
+
 .logo{
     font-size: 30px;
     font-weight: bold;
@@ -52,9 +56,7 @@ li{
     text-decoration: underline;
 }
 
-.logo:hover{
-    color: rgb(183, 0, 0);
-}
+
 
 .center{
     height: 30px; 
@@ -67,13 +69,53 @@ li{
 
 }
 
+
 .right{
     height: 30px; 
     width: 270px;
     display: flex;
     justify-content: space-around;
     margin: 15px 0;
-    text-decoration: underline;
+    text-decoration: underline; 
+}
+
+/* ======================================== Nav Bar hover ======================================== */
+
+
+.logo:hover{
+    color: rgb(183, 0, 0);
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.Acceuil:hover{
+    color: rgb(183, 0, 0);
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.Contact:hover{
+    color: rgb(183, 0, 0);
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.Exercices:hover{
+    color: rgb(183, 0, 0);
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.Mon_parcours:hover{
+    color: rgb(183, 0, 0);
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.Mes_projets:hover{
+    color: rgb(183, 0, 0);
+    text-shadow: 1px 1px 2px black;
+
 }
 
 
@@ -134,52 +176,85 @@ li{
 .exercices{
     height: 200px;
     width: 200px;
-    background-image: url(./asset/wallpaperflare.com_wallpaper6.jpg); 
+    background-image: url(./asset/Professeur.jpg); 
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     flex-direction: column;
     margin: 0 10px; 
-    border-radius: 10px 0px 10px 0px;
+    border-radius: 20px 0px 20px 0px;
     box-shadow: -7px -5px 46px -13px rgba(0, 0, 0, 0.84);
+    transition: scale 0.5s;
+}
+
+
+.exercices:hover{
+    scale: 1.1 1.1;
 }
 
 
 .projets{
     height: 200px;
     width: 200px;
-    background-image: url(./asset/wallpaperflare.com_wallpaper6.jpg); 
+    background-image: url(./asset/fusee.jpg); 
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     flex-direction: column;
     margin: 0 10px; 
-    border-radius: 10px 0px 10px 0px;
+    border-radius: 20px 0px 20px 0px;
     box-shadow: -7px -5px 46px -13px rgba(0, 0, 0, 0.84);
+    transition: scale 0.5s ;
 
+}
+
+.projets:hover{
+    scale: 1.1 1.1;
 }
 
 .parcours{
     height: 200px;
     width: 200px;
-    background-image: url(./asset/wallpaperflare.com_wallpaper6.jpg); 
+    background-image: url(./asset/Parcours.jpg); 
     background-size: cover;
-    background-position: center;
+    background-position: top;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     flex-direction: column;
     margin: 0 10px; 
-    border-radius: 10px 0px 10px 0px;
+    border-radius: 20px 0px 20px 0px;
     box-shadow: -7px -5px 46px -13px rgba(0, 0, 0, 0.84);
+    transition: scale 0.5s;
+}
 
+.parcours:hover{
+    scale: 1.1 1.1;
 }
 
 
+
+
+
+.text_lien{
+    color: rgba(240, 248, 255, 0);
+    font-weight: bold;
+    transition: transform 0.5s, color 0.5s;
+}
+
+.parcours:hover .text_lien{
+    color: black;
+}
+.projets:hover .text_lien{
+    color: black;
+}
+.exercices:hover .text_lien{
+    color: black;
+}
 
 
 /* ======================================== Footer ======================================== */
@@ -202,6 +277,13 @@ li{
 .contact{
     text-decoration: underline;
 }
+
+.contact:hover{
+    color: rgb(183, 0, 0);
+    text-shadow: 1px 1px 2px black;
+
+}
+
 
 .element_footer{
     margin : 15px 25px; 
