@@ -15,8 +15,16 @@ body{
 a{
     text-decoration: none;
     color : black; 
+    padding: 0;
+    margin: 0;
 }
 
+li{
+    list-style-type: none;
+}
+
+
+/* ======================================== Nav Bar ======================================== */
 
 .navbar{
 
@@ -54,15 +62,147 @@ a{
     display : flex; 
     justify-content: space-around;
     margin: 15px 0;
+    margin-left: 40px;
     text-decoration: underline;
 
 }
 
 .right{
     height: 30px; 
-    width: 300px;
+    width: 270px;
     display: flex;
     justify-content: space-around;
     margin: 15px 0;
     text-decoration: underline;
+}
+
+
+/* ======================================== Page ======================================== */
+
+
+
+
+.page{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 85vh; 
+    width: 100%;
+    background: url(./asset/video.mp4) no-repeat;  
+
+}
+
+.content{
+    height: 85vh; 
+    width: 70%;
+}
+.blanc{
+    height: 85vh; 
+    width: 15%;
+    
+}
+
+
+.two_part{
+    display: flex;
+}
+
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 80vh;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+.lien{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 80vh;
+}
+
+
+.exercices{
+    height: 200px;
+    width: 200px;
+    background-image: url(./asset/wallpaperflare.com_wallpaper6.jpg); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10px; 
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: -7px -5px 46px -13px rgba(0, 0, 0, 0.84);
+}
+
+
+.projets{
+    height: 200px;
+    width: 200px;
+    background-image: url(./asset/wallpaperflare.com_wallpaper6.jpg); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10px; 
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: -7px -5px 46px -13px rgba(0, 0, 0, 0.84);
+
+}
+
+.parcours{
+    height: 200px;
+    width: 200px;
+    background-image: url(./asset/wallpaperflare.com_wallpaper6.jpg); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10px; 
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: -7px -5px 46px -13px rgba(0, 0, 0, 0.84);
+
+}
+
+
+
+
+/* ======================================== Footer ======================================== */
+
+
+.footer{
+
+    height: 50px;
+    width: 100%;
+    background-color:rgba(196, 198, 205, 0.53);
+    box-shadow: -4px 6px 39px 7px rgba(0, 0, 0, 0.17);
+    
+    display: flex;
+    flex-direction: column;
+
+    font-size: 12px;
+}
+
+
+.contact{
+    text-decoration: underline;
+}
+
+.element_footer{
+    margin : 15px 25px; 
 }
