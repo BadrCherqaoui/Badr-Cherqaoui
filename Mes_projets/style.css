@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+/* ======================================== Initialisation ======================================== */
+
+*{
+    padding: 0; 
+    margin: 0; 
+}
+
+body{
+    scroll-behavior: smooth;
+    font-family: Poppins, sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color : black; 
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+/* ======================================== Nav Bar ======================================== */
+
+.navbar{
+
+    height: 60px;
+    width: 100%;
+    background-color:rgba(196, 198, 205, 0.53);
+    box-shadow: -4px 6px 39px 7px rgba(0, 0, 0, 0.17);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    height: 30px; 
+    width: 150px;
+    margin : 5px 15px; 
+}
+
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(82, 82, 82);
+    transition: color 0.1s; 
+    text-decoration: underline;
+}
+
+
+
+.center{
+    height: 30px; 
+    width: 300px;
+    display : flex; 
+    justify-content: space-around;
+    margin: 15px 0;
+    margin-left: 40px;
+    text-decoration: underline;
+
+}
+
+
+.right{
+    height: 30px; 
+    width: 270px;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+    text-decoration: underline; 
+}
+
+/* ======================================== Nav Bar hover ======================================== */
+
+
+.logo:hover{
+    color: rgb(183, 0, 0);
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.Acceuil:hover{
+    color: rgb(183, 0, 0);
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.Contact:hover{
+    color: rgb(183, 0, 0);
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.Exercices:hover{
+    color: rgb(183, 0, 0);
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.Mon_parcours:hover{
+    color: rgb(183, 0, 0);
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.Mes_projets:hover{
+    color: rgb(183, 0, 0);
+    text-shadow: 1px 1px 2px black;
+
+}

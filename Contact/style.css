@@ -119,6 +119,7 @@ li{
 }
 
 
+
 /* ======================================== Page ======================================== */
 
 
@@ -137,152 +138,67 @@ li{
 }
 
 .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 85vh; 
     width: 70%;
 }
+
 .blanc{
     height: 85vh; 
     width: 15%;
     
 }
 
-
-.two_part{
-    display: flex;
+.contact{
+    margin: 50px 0;
+    font-size: 40px;
+    font-weight: bold;
 }
 
+.content_element{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.trait{
+    margin: 10px 0; 
+    height: 1px;
+    width: 200px;
+    background-color: black;
+}
+
+
+.photo-1{
+    height: 300px;
+    width: 250px;
+    background-image: url(./asset/Photo-CV.jpg); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    margin: 0 10px; 
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: -7px -5px 46px -13px rgba(0, 0, 0, 0.84);
+
+    font-size : 18px; 
+    font-weight: bold;
+}
+
+.informations{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+
+}
 
 .text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-    height: 80vh;
-    font-size: 35px;
-    font-weight: bold;
-    margin: 10px 0;
-}
-
-
-.lien{
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    width: 70%;
-    height: 80vh;
-}
-
-
-.exercices{
-    height: 200px;
-    width: 200px;
-    background-image: url(./asset/Professeur.jpg); 
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    flex-direction: column;
-    margin: 0 10px; 
-    border-radius: 20px 0px 20px 0px;
-    box-shadow: -7px -5px 46px -13px rgba(0, 0, 0, 0.84);
-    transition: scale 0.5s;
-}
-
-
-.exercices:hover{
-    scale: 1.1 1.1;
-}
-
-
-.projets{
-    height: 200px;
-    width: 200px;
-    background-image: url(./asset/fusee.jpg); 
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    flex-direction: column;
-    margin: 0 10px; 
-    border-radius: 20px 0px 20px 0px;
-    box-shadow: -7px -5px 46px -13px rgba(0, 0, 0, 0.84);
-    transition: scale 0.5s ;
-
-}
-
-.projets:hover{
-    scale: 1.1 1.1;
-}
-
-.parcours{
-    height: 200px;
-    width: 200px;
-    background-image: url(./asset/Parcours.jpg); 
-    background-size: cover;
-    background-position: top;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    flex-direction: column;
-    margin: 0 10px; 
-    border-radius: 20px 0px 20px 0px;
-    box-shadow: -7px -5px 46px -13px rgba(0, 0, 0, 0.84);
-    transition: scale 0.5s;
-}
-
-.parcours:hover{
-    scale: 1.1 1.1;
-}
-
-
-
-.text_lien{
-    color: rgba(240, 248, 255, 0);
-    font-weight: bold;
-    transition: transform 0.5s, color 0.5s;
-}
-
-.parcours:hover .text_lien{
-    color: black;
-}
-.projets:hover .text_lien{
-    color: black;
-}
-.exercices:hover .text_lien{
-    color: black;
-}
-
-
-/* ======================================== Footer ======================================== */
-
-
-.footer{
-
-    height: 50px;
-    width: 100%;
-    background-color:rgba(196, 198, 205, 0.53);
-    box-shadow: -4px 6px 39px 7px rgba(0, 0, 0, 0.17);
-    
-    display: flex;
-    flex-direction: column;
-
-    font-size: 12px;
-}
-
-
-.contact{
-    text-decoration: underline;
-}
-
-.contact:hover{
-    color: rgb(183, 0, 0);
-    text-shadow: 1px 1px 2px black;
-
-}
-
-
-.element_footer{
-    margin : 15px 25px; 
+    text-align: center;
 }
